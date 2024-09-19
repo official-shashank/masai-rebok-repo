@@ -6,11 +6,29 @@
     <title>Reebok Masai Repo</title>
     <link rel="stylesheet" href="./styles/main.css">
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-    <!-- header -->
-    <!-- navbar -->
-    <!-- landing page  hdjdhjdhg-->
+    <header>
+        <nav class="navbar">
+            <div class="brand">
+                <a href="#">MORE BRANDS</a>
+                <span class="dropdown">&#x25BC;</span>
+            </div>
+            <ul class="nav-items">
+                <li><a href="#"><i class="fas fa-map-marker-alt"></i> STORES</a></li>
+                <li><a href="#"><i class="fas fa-info-circle"></i> CONTACT US</a></li>
+                <li><a href="#"><i class="fas fa-user"></i> LOG IN</a></li>
+                <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                <li><img src="data:image/png;base64,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" alt="Aditya Birla" class="logo"></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- landing page -->
+
+
 </body>
 </html>
