@@ -1,0 +1,120 @@
+.card img{
+    width: 10rem;
+    height: 5rem;
+    object-fit: contain;  
+}
+
+.card:hover{
+    scale: 1.1;
+    transition: 0.5s all ease-in-out;
+}
+
+.card{
+    width: 25rem;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    gap: 1rem;
+    flex-direction: column;
+    margin: 2rem;
+    box-shadow: 21px 16px 50px -3px rgba(0,0,0,0.3);
+    padding:1rem;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+.card .title{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.card .card-details{
+     font-size: 1.1rem;
+}
+
+.blogs{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: row;
+}
+.blog{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex-direction: column;
+
+}
+
+.blogs .headline{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-direction: row;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.blog-section{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.blog img{
+    width: 100%;
+    height: 20rem; 
+    object-fit: contain;   
+}
+
+
+.blog img:hover{
+    scale: 1.1;
+    transition:0.5s all ease-in;
+    border-radius: 2rem;
+}
+
+.new-favourite{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+
+}
+.new-favourite span{
+    width: 30%;
+    font-size: 1.1rem;
+    color: white;
+    background: rgb(116, 122, 190);
+    /* border-radius: 1rem; */
+    text-align: center;
+
+}
+.tags{
+    text-align: left !important;
+}
+.products-details{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.price{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.shopping-guides{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
