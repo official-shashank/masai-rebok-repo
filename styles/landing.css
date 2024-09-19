@@ -1,0 +1,46 @@
+.blogs{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.blog{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex-direction: column;
+
+}
+
+.blogs .headline{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-direction: row;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.blog-section{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.blog img{
+    width: 20rem;
+    height: 20rem;    
+}
+
+
+.blog img{
+    scale: 1.1;
+    transition:0.5s all ease-in;
+}
